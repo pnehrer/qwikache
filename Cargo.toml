@@ -1,0 +1,17 @@
+[package]
+name = "qwikache"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.59"
+license = "MIT"
+authors = ["Peter Nehrer <pnehrer@eclipticalsoftware.com>"]
+
+[dependencies]
+
+[dev-dependencies]
+criterion = "0.3"
+mock_instant = "0.2"
+
+[[bench]]
+name = "cache"
+harness = false
